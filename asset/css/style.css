@@ -1,0 +1,331 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "iranyekan";
+    src: url("../fonts/uiranyekan/eot/iranyekanwebregular.eot?#"),
+        url("../fonts/iranyekan/ttf/iranyekanwebregular.ttf") format('truetype'),
+        url("../fonts/iranyekan/woff/iranyekanwebregular.woff") format('woff'),
+        url("../fonts/iranyekan/svg/iranyekanwebregular.svg") format('svg');
+}
+
+@font-face {
+    font-family: "iranyekan_numbers";
+    src: url("../fonts/fonts/iranyekan_numbers/eot/iranyekanwebregular(fanum).eot?#"),
+        url("../fonts/iranyekan_numbers/ttf/iranyekanwebregular(fanum).ttf") format('truetype'),
+        url("../fonts/iranyekan_numbers/woff/iranyekanwebregular(fanum).woff") format('woff'),
+        url("../fonts/iranyekan_numbers/svg/iranyekanwebregular(fanum).svg") format('svg');
+}
+
+body {
+    direction: rtl;
+    font-family: 'iranyekan_numbers', 'iranyekan';
+}
+
+/*header*/
+header {
+    margin-top: 5px;
+}
+
+/*nav*/
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #1ebba3 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(160, 160, 160) !important;
+}
+
+/*end-nav*/
+/* caption */
+.caption {
+    height: 417px;
+    padding: 45px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-image: url(../img/realistic-white-golden-geometric-background_79603-2032.avif);
+}
+
+.home-inner {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.caption h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    padding-bottom: 16px;
+
+}
+
+.caption h3 {
+    font-size: 2rem;
+    padding-bottom: 16px;
+    text-shadow: 0.1em 0.1rem 0.7rem #000;
+}
+
+.btn-star {
+    border-radius: 0;
+    border-width: 1px;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+}
+
+.btn-outline-dark {
+    border-radius: 0 !important;
+    color: #169c88 !important;
+}
+
+.btn-outline-dark:hover {
+    color: white !important;
+    background-color: #1ebba3 !important;
+}
+
+/* end-caption */
+/*end-header*/
+/*About Darsmam*/
+.area {
+    margin: 0 auto;
+    padding: 4rem 2rem 1rem;
+}
+
+.area h2 {
+    font-size: 2.4rem;
+}
+
+.btn-secondary {
+    border-color: #1ebba3;
+    margin: 1rem !important;
+    color: white !important;
+    border-radius: 0 !important;
+    font-size: 1.2rem !important;
+    border-width: 0.1rem !important;
+    padding: 0.6rem 1.2rem !important;
+    background-color: #1ebba3 !important;
+}
+
+.btn-secondary:hover {
+    border-color: #169c88 !important;
+    background-color: #169c88 !important;
+}
+
+/*end-About Darsmam*/
+/*serviec*/
+.jumbotron {
+    width: 98%;
+    margin: 0 auto;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 2rem 3.5rem;
+    background-color: #F0F8FF;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.underline {
+    width: 20rem;
+    height: 0.2rem;
+    margin: 1em auto 2rem;
+    background-color: #1ebba3;
+}
+
+.servics svg {
+    color: #1ebba3;
+}
+
+.servics h3 {
+    padding: 0.4rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.servics p {
+    font-size: 1rem;
+}
+
+/*end-serviec*/
+/*grop*/
+.color-img {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../img/dirty-pattern-paint-room-block_1203-5709.avif);
+}
+
+/*end grop*/
+/*teachar*/
+#teachar {
+    background-color: #F0F8FF;
+}
+
+#teachar img {
+    border-radius: 50%;
+}
+
+#teachar p {
+    text-align: justify;
+}
+
+.teachar-hr {
+    border-bottom: 2px solid #1ebba3;
+}
+
+/*end teachar */
+/*navisande*/
+.navisande .jumbotron {
+    padding: 1em 0 3em;
+}
+
+.navisande .card {
+    margin: 1rem 0;
+    border-radius: 0;
+    box-shadow: 2px 2px 5px #1ebba3;
+}
+
+.navisande .card:hover {
+    background-color: #169c88;
+}
+
+.navisande .card:hover a,
+.navisande .card:hover h3,
+.navisande .card:hover h5,
+.navisande .card:hover p {
+    color: #fff;
+}
+
+.card-body h3 {
+    color: #000;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.card-body h5 {
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: bolder;
+}
+
+.card-body .img-fluid {
+    margin-top: -75px;
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+.card-body a {
+    color: #000;
+}
+
+/*end navisande*/
+/* footer */
+footer {
+    color: #fff;
+    padding: 2rem 0;
+    background-color: #343a40 !important;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #169c88;
+}
+
+.hr-h {
+    margin-top: 3rem;
+    border-top: 0.2rem solid #666b71;
+}
+
+footer .a-link {
+    color: #169c88;
+    text-decoration: none;
+}
+
+/* end footer */
+/* btn */
+.btn-group-fab {
+    right: 20px;
+    width: 50px;
+    height: auto;
+    bottom: 20px;
+    position: fixed;
+}
+
+.btn-group-fab .btn {
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    color: white;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.btn-group-fab .btn-main {
+    width: 50px;
+    height: 50px;
+    line-height: 2;
+}
+
+.btn-group-fab svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* end btn */
+/*media*/
+@media screen and (max-width: 737px) {
+
+    /*servis*/
+    .jumbotron {
+        width: 96%;
+    }
+
+    /*servis*/
+    /*header*/
+    .caption h1 {
+        font-size: 2rem;
+    }
+}
+
+/*header*/
+@media screen and (max-width: 737px) {
+
+    /*servis*/
+    .underline {
+        margin: 0px -35px;
+    }
+     /*servis*/
+    .img-m {
+        width: 50%;
+        margin-top: 30px;
+        margin-right: 80px;
+    }
+    .card-body .img-fluid {
+        margin-top: -28px;
+    }
+    .underline {
+        margin: 1em 19px 2rem;
+    }
+}
+
+   
