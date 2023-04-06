@@ -192,6 +192,7 @@ header {
 
 .navisande .card {
     margin: 1rem 0;
+    cursor: pointer;
     border-radius: 0;
     box-shadow: 2px 2px 5px #1ebba3;
 }
@@ -292,6 +293,126 @@ footer .a-link {
 }
 
 /* end btn */
+/* login main-box */
+.main-box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/white-painted-wall-texture-background_53876-138197.avif);
+
+}
+
+/* end-login main-box */
+/* login form-box */
+.form-box {
+    width: 380px;
+    height: 480px;
+    padding: 3em;
+    margin: 6% auto;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+}
+#register {
+    left: 450px;
+}
+/*end login form-box */
+/* btn-box */
+.btn-box {
+    width: 220px;
+    font-size: 1rem;
+    position: relative;
+    margin: 2.2rem auto;
+    border-radius: 1.8rem;
+    box-shadow: 0 0 1.25rem 0.5rem #ff61251f;
+}
+
+.toggle-btn {
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    padding: 0.5rem 1.8rem;
+    background: transparent;
+}
+
+#account-btn {
+    top: 0;
+    left: 0;
+    width: 110px;
+    height: 100%;
+    position: absolute;
+    transition: 0.6s;
+    border-radius: 1.5rem;
+    background-image: linear-gradient(to right, #25aae4, #1ebba3);
+}
+
+/* end btn-box */
+/* social-icons */
+.social-icons {
+    text-align: center;
+    margin: 1.8rem auto;
+}
+
+.social-icons svg {
+    color: #fff;
+    margin: 0 1rem;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    background-image: linear-gradient(to right, #25aae4, #1ebba3);
+}
+
+/* end social-icons */
+/* input-group */
+.input-group {
+    top: 210px;
+    width: 280px;
+    position: absolute;
+    transition: 0.6s;
+}
+
+.input-field {
+    outline: 0;
+    width: 100%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin: 0.3rem 0;
+    padding: 0.6rem 0;
+    background-color: transparent;
+    border-bottom: 1px solid #999;
+}
+
+.check-box {
+    margin: 1.8rem 0.5rem;
+}
+
+.submit {
+    border: 0;
+    width: 85%;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 1.8rem;
+    padding: 0.6rem 1.8rem;
+    background-image: linear-gradient(to right, #25aae4, #1ebba3);
+}
+
+.input-group span {
+    color: #999;
+    bottom: 60px;
+    font-size: 0.8rem;
+    position: absolute;
+}
+
+/* end input-group */
+
+
 /*media*/
 @media screen and (max-width: 737px) {
 
@@ -314,18 +435,29 @@ footer .a-link {
     .underline {
         margin: 0px -35px;
     }
-     /*servis*/
+
+    /*servis*/
     .img-m {
         width: 50%;
         margin-top: 30px;
         margin-right: 80px;
     }
+
+    /* card */
     .card-body .img-fluid {
         margin-top: -28px;
     }
-    .underline {
-        margin: 1em 19px 2rem;
-    }
-}
 
-   
+    /* card */
+    /* navisande */
+    .underline-n {
+        margin: 0px 80px;
+    }
+
+    /* servis */
+    .underline-s {
+        margin: 17px 15px;
+    }
+
+    /* servis */
+}

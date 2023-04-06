@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ورد و ثبت نام </title>
+  <link rel="stylesheet" href="./asset/fonts/fontawesome.css">
+  <link rel="stylesheet" href="asset/css/style.css">
+
+</head>
+
+<body>
+  <section>
+    <div class="main-box">
+      <div class="form-box">
+        <div class="btn-box">
+          <div id="account-btn"></div>
+          <button type="button" class="toggle-btn" onclick="Register()">ثبت نام </button>
+          <button type="button" class="toggle-btn" onclick="Login()">ورود </button>
+        </div>
+        <div class="social-icons">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+            class="bi bi-send-check-fill" viewBox="0 0 16 16">
+            <path
+              d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 1.59 2.498C8 14 8 13 8 12.5a4.5 4.5 0 0 1 5.026-4.47L15.964.686Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z" />
+            <path
+              d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-plus"
+            viewBox="0 0 16 16">
+            <path
+              d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z" />
+            <path
+              d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-3.5-2a.5.5 0 0 0-.5.5v1h-1a.5.5 0 0 0 0 1h1v1a.5.5 0 0 0 1 0v-1h1a.5.5 0 0 0 0-1h-1v-1a.5.5 0 0 0-.5-.5Z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart-x"
+            viewBox="0 0 16 16">
+            <path
+              d="M7.354 5.646a.5.5 0 1 0-.708.708L7.793 7.5 6.646 8.646a.5.5 0 1 0 .708.708L8.5 8.207l1.146 1.147a.5.5 0 0 0 .708-.708L9.207 7.5l1.147-1.146a.5.5 0 0 0-.708-.708L8.5 6.793 7.354 5.646z" />
+            <path
+              d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+          </svg>
+        </div>
+        <form id="login" class="input-group" action="">
+          <input type="text" class="input-field" placeholder="نام کاربری ">
+          <input type="text" class="input-field" placeholder="رمز عبور ">
+          <input type="checkbox" class="check-box">
+          <span>مرا به خاطر بسپار</span>
+          <button type="submit" class="submit">ورود</button>
+        </form>
+        <form id="register" class="input-group" action="">
+          <input type="text" class="input-field" placeholder="نام کاربری ">
+          <input type="text" class="input-field" placeholder="ایمیل">
+          <input type="text" class="input-field" placeholder="رمز عبور ">
+          <input type="checkbox" class="check-box">
+          <span>قوانین و مقررات سایت را میپزیم </span>
+          <button type="submit" class="submit">ثبت نام</button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+  <!-- script -->
+  <script>
+    var account_btn = document.getElementById("account-btn")
+    var login = document.getElementById("login")
+    var register = document.getElementById("register")
+
+    function Register() {
+      account_btn.style.left = "110px";
+      register.style.left = "50px";
+      login.style.left = "-400px";
+     }
+     function Login() {
+      account_btn.style.left = "0px";
+      register.style.left = "450px";
+      login.style.left = "50px";
+     }
+  </script>
+  <!-- script -->
+</body>
+
+</html>
