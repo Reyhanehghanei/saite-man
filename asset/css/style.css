@@ -24,12 +24,10 @@ body {
     direction: rtl;
     font-family: 'iranyekan_numbers', 'iranyekan';
 }
-
 /*header*/
 header {
     margin-top: 5px;
 }
-
 /*nav*/
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -39,7 +37,6 @@ header {
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(160, 160, 160) !important;
 }
-
 /*end-nav*/
 /* caption */
 .caption {
@@ -90,7 +87,6 @@ header {
     color: white !important;
     background-color: #1ebba3 !important;
 }
-
 /* end-caption */
 /*end-header*/
 /*About Darsmam*/
@@ -118,7 +114,6 @@ header {
     border-color: #169c88 !important;
     background-color: #169c88 !important;
 }
-
 /*end-About Darsmam*/
 /*serviec*/
 .jumbotron {
@@ -154,7 +149,6 @@ header {
 .servics p {
     font-size: 1rem;
 }
-
 /*end-serviec*/
 /*grop*/
 .color-img {
@@ -164,7 +158,6 @@ header {
     background-position: center center;
     background-image: url(../img/dirty-pattern-paint-room-block_1203-5709.avif);
 }
-
 /*end grop*/
 /*teachar*/
 #teachar {
@@ -182,7 +175,6 @@ header {
 .teachar-hr {
     border-bottom: 2px solid #1ebba3;
 }
-
 /*end teachar */
 /*navisande*/
 .navisande .jumbotron {
@@ -234,7 +226,6 @@ header {
 .card-body a {
     color: #000;
 }
-
 /*end navisande*/
 /* footer */
 footer {
@@ -260,7 +251,6 @@ footer .a-link {
     color: #169c88;
     text-decoration: none;
 }
-
 /* end footer */
 /* btn */
 .btn-group-fab {
@@ -290,7 +280,6 @@ footer .a-link {
     width: 20px;
     height: 20px;
 }
-
 /* end btn */
 /* login main-box */
 .main-box {
@@ -302,7 +291,6 @@ footer .a-link {
     background-image: url(../img/white-painted-wall-texture-background_53876-138197.avif);
 
 }
-
 /* end-login main-box */
 /* login form-box */
 .form-box {
@@ -347,7 +335,6 @@ footer .a-link {
     border-radius: 1.5rem;
     background-image: linear-gradient(to right, #25aae4, #1ebba3);
 }
-
 /* end btn-box */
 /* social-icons */
 .social-icons {
@@ -364,7 +351,6 @@ footer .a-link {
     font-size: 1.25rem;
     background-image: linear-gradient(to right, #25aae4, #1ebba3);
 }
-
 /* end social-icons */
 /* input-group */
 .input-group {
@@ -408,10 +394,7 @@ footer .a-link {
     font-size: 0.8rem;
     position: absolute;
 }
-
 /* end input-group */
-
-
 /*media*/
 @media screen and (max-width: 737px) {
 
